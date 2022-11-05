@@ -22,7 +22,6 @@ public class Empleado {
     @OneToMany(mappedBy = "empleado")
     private List<Dispositivo> dispositivos;
 
-
     public Empleado() {
     }
 
